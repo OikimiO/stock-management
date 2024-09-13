@@ -39,15 +39,17 @@ Redis 기반 분산 락과 모니터링 툴을 사용하여 시스템의 안정�
 
 
 ### v1 엔티티 흐름도
-<img width="913" alt="image" src="https://github.com/user-attachments/assets/659dd6a2-8e8b-4e85-839e-c8a8c02587b0">
-
+<img width="871" alt="image" src="https://github.com/user-attachments/assets/c74f6da2-7043-45ce-bd12-cc180f40815b">
 
 ### v1 데이터 흐름도
 #### 주문 등록
-<img width="970" alt="image" src="https://github.com/user-attachments/assets/83de8d54-f9e6-40ec-8967-e3d9b28e4b7a">
+<img width="1240" alt="image" src="https://github.com/user-attachments/assets/74c489ae-7afa-4be6-8212-5abef082d95f">
 
 #### 주문 취소
-<img width="1109" alt="image" src="https://github.com/user-attachments/assets/5776398c-0a96-44c7-ae5f-b0d6a56a5586">
+<img width="1133" alt="image" src="https://github.com/user-attachments/assets/5edc4abb-53cf-4ecb-b000-acd8fd2f7701">
+
+#### DB 처리 흐름
+<img width="390" alt="image" src="https://github.com/user-attachments/assets/71dccdf8-3519-452d-8790-279b45f49fe8">
 
 
 ### v1 기능 구현 상세
