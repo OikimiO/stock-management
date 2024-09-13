@@ -4,11 +4,11 @@
 Redis 기반 분산 락과 모니터링 툴을 사용하여 시스템의 안정성을 확보합니다.
 
 ### [JDK 버전] 프로젝트 기술
-- [Java17] Spring Boot, Spring JPA, H2 DataBase, Spring Actuator, Spring Redis, Prometheus, Grafana
+- [Java17] Spring Boot, Spring JPA, H2 DataBase, Spring Actuator, Spring Redisson, Prometheus, Grafana
 
 #### Library 추가 이유
 - Spring Actuator: 코드 개발 후 시스템 상태 확인 및 잘못된 지점을 확인하기 위해 추가했습니다.
-- Spring Redis: 동시 주문&취소 처리 시 데이터 일관성을 유지하기 위한 분산 락 사용을 위해 추가했습니다.
+- Spring Redisson: 동시 주문&취소 처리 시 데이터 일관성을 유지하기 위한 분산 락 사용을 위해 추가했습니다.
 - Prometheus: JVM의 Metrics를 수집하는 목적으로 Prometheus를 추가했으며, Metrics를 수집 방법은 Pull 방식입니다.
 - Grafana: Container 및 Redis의 상태를 시각화하기위해 모니터링 툴을 추가했습니다.  
 
@@ -89,6 +89,9 @@ Redis 기반 분산 락과 모니터링 툴을 사용하여 시스템의 안정�
   - 데이터베이스 예외: 3001
 - 시스템 예외 처리
   - 시스템 예외: 9999
+ 
+#### Prometheus 보안 설정
+- Spring Actuator 별개 Port 설정 및 Base Path 변경
 
 ### 추후 기능 구현 목록
 - 상품 CRUD 구현
