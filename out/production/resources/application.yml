@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: stock
+
+  #H2
+  datasource:
+    url: ${SPRING_DB_STOCK_URL}
+    username: ${SPRING_DB_STOCK_USERNAME}
+    password: ${SPRING_DB_STOCK_PASSWORD}
+    driverClassName: org.h2.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+
+  #Redis
+  data:
+    redis:
+      host: ${REDIS_HOST}
+      port: ${REDIS_PORT}
