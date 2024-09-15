@@ -2,10 +2,12 @@
 이 프로젝트는 재고 시스템에서 발생하는 동시성 문제를 해결하기 위해 Redis 기반 분산 락을 사용합니다.
 
 ### [JDK 버전] 프로젝트 기술
-- [Java17] Spring Boot, Spring JPA, H2 DataBase, Spring Redisson
+- [Java17] Spring Boot, Spring JPA, H2 DataBase, Spring Redisson, Spring Doc
 
 #### Library 추가 이유
 - Spring Redisson: 동시 주문시 데이터 일관성을 유지하기 위한 분산 락 사용을 위해 추가했습니다.
+- Spring Doc: API 명세를 확인하기 위해 추가했습니다.
+(http://localhost:8080/swagger-ui/index.html#)
 
 ### 코드 스타일
 #### 1. 함수(또는 메서드)의 길이가 15라인을 넘어가지 않도록 구현한다
