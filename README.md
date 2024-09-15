@@ -36,7 +36,7 @@
 
 
 ### v1 엔티티 흐름도
-<img width="755" alt="image" src="https://github.com/user-attachments/assets/a6a7dce8-1582-4af2-b2cd-1a94615e2fc6">
+<img width="811" alt="image" src="https://github.com/user-attachments/assets/34a2c29f-509d-40ba-bf16-d2614a0a4ac7">
 
 ### v1 데이터 흐름도
 #### 주문 등록
